@@ -58,32 +58,7 @@ week = ", ".join(days)
 display(f"Days of the week: {week}")
 
 
-def calculate(event):
 
-    number1 = document.querySelector("#number1").value
-    number2 = document.querySelector("#number2").value
-
-    number1 = float(number1)
-    number2 = float(number2)
-
-    # Addition
-    addition = number1 + number2
-
-    # Subtraction
-    subtraction = number1 - number2
-
-    # Multiplication
-    multiplication = number1 * number2
-
-    # Division
-    division = number1 / number2
-
-    display(f"First Number: {number1}")
-    display(f"Second Number: {number2}")
-    display(f"Addition: {addition}")
-    display(f"Subtraction: {subtraction}")
-    display(f"Multiplication: {multiplication}")
-    display(f"Division: {division}")
 
 
 
