@@ -1,54 +1,50 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<!DOCTYPE html> 
+<html> 
+    <head> 
+        <title>ICT 10 Seatwork #1</title> 
+        <link rel="stylesheet" href="https://pyscript.net/releases/2025.8.1/core.css"> 
+        <script type="module" src="https://pyscript.net/releases/2025.8.1/core.js"> </script> 
+        <style> 
+        body { 
+            font-family: Arial; 
+            background-color: rgb(230, 173, 205); 
+            text-align: center; 
+            padding: 30px; 
+        } 
+        .box { 
+            background-color: white; 
+            padding: 25px; 
+            max-width: 700px; 
+            margin: auto; 
+            border-radius: 10px; 
+        } 
+        input { 
+            padding: 10px; 
+            margin: 5px; 
+        } 
+        button { 
+            padding: 10px 20px; 
+            margin: 10px; 
+        } 
+        
+        </style>
+        
+    </head> 
+    <body> 
+        <div class="box">
+             <h1>ICT 10 Seatwork #1</h1> 
 
-    <link rel="stylesheet" href="https://pyscript.net/releases/2025.8.1/core.css">
-    <script type="module" src="https://pyscript.net/releases/2025.8.1/core.js"></script>
-<style> 
-body {
-     font-family: Arial; 
-     background-color: rgb(235, 178, 204); 
-     text-align: center; 
-     padding: 30px; 
-    } 
+             <h2>Understanding Data Types</h2> 
 
+             <h3>Working with Python Numbers</h3> 
 
-.box { 
-        background-color: white; 
-        padding: 25px; 
-        max-width: 700px; 
-        margin: auto; border-radius: 10px; 
-    } 
-    
-input { 
-    padding: 10px; margin: 5px; 
-    } 
-    
-button { 
-    padding: 10px 20px; 
-    margin: 10px; 
-    } 
-    
-</style>
+             <input type="number" id="number1" placeholder="Enter first number"> 
+             <input type="number" id="number2" placeholder="Enter second number"> 
+             <br> 
+             <button py-click="calculate">Calculate</button> 
+             <py-script src="main.py"></py-script> 
+            
+        </div> 
 
-</head>
-<body>
-
-    <div class="box"> <h1>ICT 10 Seatwork #1
-
-    </h1> <h2>Working with Python Numbers</h2> 
-    
-    <input type="number" id="number1" placeholder="First number"> 
-    <input type="number" id="number2" placeholder="Second number"> 
-    
-    <br>
-    
-    <button py-click="calculate">Calculate</button> 
-    
-    <py-script src="main.py"></py-script> </div>
-    
-</body>
-</html>
+    </body> 
+    </html>
